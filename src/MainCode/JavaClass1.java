@@ -6,18 +6,18 @@ import java.util.Scanner;
 
 public class JavaClass1 {
     public static void main(String[] args){
-        Scanner myScanner = new Scanner(System.in);
+        Scanner sc = new Scanner(System.in);
 
         System.out.println("Enter Robot Name:");
-        String name = myScanner.nextLine();
+        String name = sc.nextLine();
 
         System.out.println("Enter Team Number:");
-        int TeamName = ScannerMethods.getValidTeamNumber(myScanner);
+        int TeamName = ScannerMethods.getValidTeamNumber(sc);
 
 
 
         System.out.println("Enter Robot Power from 0-1");
-        double power = ScannerMethods.getValidPower(myScanner);
+        double power = ScannerMethods.getValidPower(sc);
 
 //
 
